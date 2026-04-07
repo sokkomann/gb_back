@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.springframework.boot",
+    "module": "spring-boot-starter-aop",
+    "version": "3.5.10",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter",
+          "version": {
+            "requires": "3.5.10"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-aop",
+          "version": {
+            "requires": "6.2.15"
+          }
+        },
+        {
+          "group": "org.aspectj",
+          "module": "aspectjweaver",
+          "version": {
+            "requires": "1.9.25.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-boot-starter-aop-3.5.10.jar",
+          "url": "spring-boot-starter-aop-3.5.10.jar",
+          "size": 2026,
+          "sha512": "3b454192b034c572b5f17e04f6a834af8bf15f7fa5ee420e31a7a5808cd8e6c51b666ee6c0b39d1a9a80478337eeb2f18102e8ec1eb4140523f27f9035efbba5",
+          "sha256": "221fc171c5e6851091982a83f4309aa4bce93cd8065e348fe0940bd58d28b8b1",
+          "sha1": "318391a08f46528546422fce57685f3c412e969c",
+          "md5": "17d6e526bd474e6786ebce2ea93bd3b2"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter",
+          "version": {
+            "requires": "3.5.10"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-aop",
+          "version": {
+            "requires": "6.2.15"
+          }
+        },
+        {
+          "group": "org.aspectj",
+          "module": "aspectjweaver",
+          "version": {
+            "requires": "1.9.25.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-boot-starter-aop-3.5.10.jar",
+          "url": "spring-boot-starter-aop-3.5.10.jar",
+          "size": 2026,
+          "sha512": "3b454192b034c572b5f17e04f6a834af8bf15f7fa5ee420e31a7a5808cd8e6c51b666ee6c0b39d1a9a80478337eeb2f18102e8ec1eb4140523f27f9035efbba5",
+          "sha256": "221fc171c5e6851091982a83f4309aa4bce93cd8065e348fe0940bd58d28b8b1",
+          "sha1": "318391a08f46528546422fce57685f3c412e969c",
+          "md5": "17d6e526bd474e6786ebce2ea93bd3b2"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spring-boot-starter-aop-3.5.10-javadoc.jar",
+          "url": "spring-boot-starter-aop-3.5.10-javadoc.jar",
+          "size": 2026,
+          "sha512": "3b454192b034c572b5f17e04f6a834af8bf15f7fa5ee420e31a7a5808cd8e6c51b666ee6c0b39d1a9a80478337eeb2f18102e8ec1eb4140523f27f9035efbba5",
+          "sha256": "221fc171c5e6851091982a83f4309aa4bce93cd8065e348fe0940bd58d28b8b1",
+          "sha1": "318391a08f46528546422fce57685f3c412e969c",
+          "md5": "17d6e526bd474e6786ebce2ea93bd3b2"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spring-boot-starter-aop-3.5.10-sources.jar",
+          "url": "spring-boot-starter-aop-3.5.10-sources.jar",
+          "size": 2026,
+          "sha512": "3b454192b034c572b5f17e04f6a834af8bf15f7fa5ee420e31a7a5808cd8e6c51b666ee6c0b39d1a9a80478337eeb2f18102e8ec1eb4140523f27f9035efbba5",
+          "sha256": "221fc171c5e6851091982a83f4309aa4bce93cd8065e348fe0940bd58d28b8b1",
+          "sha1": "318391a08f46528546422fce57685f3c412e969c",
+          "md5": "17d6e526bd474e6786ebce2ea93bd3b2"
+        }
+      ]
+    }
+  ]
+}

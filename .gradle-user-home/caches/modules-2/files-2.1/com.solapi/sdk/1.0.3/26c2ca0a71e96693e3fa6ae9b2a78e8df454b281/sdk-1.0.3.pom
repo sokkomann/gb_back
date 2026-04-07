@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.solapi</groupId>
+  <artifactId>sdk</artifactId>
+  <version>1.0.3</version>
+  <name>SOLAPI SDK</name>
+  <description>SOLAPI 및 SOLAPI 계열(쿨에스엠에스 등) 서비스에서 사용되는 문자 발송용 SDK</description>
+  <url>https://github.com/solapi/solapi-kotlin</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://opensource.org/license/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>contact</id>
+      <name>SOLAPI Contact</name>
+      <email>contact@solapi.com</email>
+      <organization>SOLAPI Inc</organization>
+    </developer>
+    <developer>
+      <id>lucy</id>
+      <name>Lucy Lee</name>
+      <email>lucy@solapi.com</email>
+      <organization>SOLAPI Inc</organization>
+    </developer>
+    <developer>
+      <id>hosy</id>
+      <name>Hosy Lee</name>
+      <email>hosy@solapi.com</email>
+      <organization>SOLAPI Inc</organization>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/solapi/solapi-kotlin.git</connection>
+    <developerConnection>scm:git:ssh://github.com/solapi/solapi-kotlin.git</developerConnection>
+    <url>https://github.com/solapi/solapi-kotlin</url>
+  </scm>
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>org.jetbrains.kotlin</groupId>
+        <artifactId>kotlin-stdlib-jdk8</artifactId>
+        <version>2.2.10</version>
+      </dependency>
+      <dependency>
+        <groupId>org.jetbrains.kotlin</groupId>
+        <artifactId>kotlin-reflect</artifactId>
+        <version>2.2.10</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk8</artifactId>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-reflect</artifactId>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>commons-codec</groupId>
+      <artifactId>commons-codec</artifactId>
+      <version>1.18.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>okhttp-jvm</artifactId>
+      <version>5.1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>logging-interceptor</artifactId>
+      <version>5.1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.retrofit2</groupId>
+      <artifactId>retrofit</artifactId>
+      <version>3.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlinx</groupId>
+      <artifactId>kotlinx-serialization-json-jvm</artifactId>
+      <version>1.9.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.retrofit2</groupId>
+      <artifactId>converter-kotlinx-serialization</artifactId>
+      <version>3.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

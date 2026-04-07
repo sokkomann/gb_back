@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.springframework.session",
+    "module": "spring-session-data-redis",
+    "version": "3.5.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.session",
+          "module": "spring-session-core",
+          "version": {
+            "requires": "3.5.4"
+          }
+        },
+        {
+          "group": "org.springframework.data",
+          "module": "spring-data-redis",
+          "version": {
+            "requires": "3.5.7"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "jcl-over-slf4j"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-session-data-redis-3.5.4.jar",
+          "url": "spring-session-data-redis-3.5.4.jar",
+          "size": 97165,
+          "sha512": "a4b5d30c7e843ac3fabf03aa115e419fdaa24ab808b6708a1b86b235a5a90eb669c92da752682ba6c52415ceaa1a6f26e54725ce8136be69e2db4eb1e1b99dd8",
+          "sha256": "4d365c7393373c5f627bf881bd5afce7063d000d0e5a7e9d5e794f4b2dec1304",
+          "sha1": "d38e4567443f79a26080dc80ee584ac439c8f25c",
+          "md5": "1d4240b3ade5b0250819b4743f29e50e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.session",
+          "module": "spring-session-core",
+          "version": {
+            "requires": "3.5.4"
+          }
+        },
+        {
+          "group": "org.springframework.data",
+          "module": "spring-data-redis",
+          "version": {
+            "requires": "3.5.7"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "jcl-over-slf4j"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-session-data-redis-3.5.4.jar",
+          "url": "spring-session-data-redis-3.5.4.jar",
+          "size": 97165,
+          "sha512": "a4b5d30c7e843ac3fabf03aa115e419fdaa24ab808b6708a1b86b235a5a90eb669c92da752682ba6c52415ceaa1a6f26e54725ce8136be69e2db4eb1e1b99dd8",
+          "sha256": "4d365c7393373c5f627bf881bd5afce7063d000d0e5a7e9d5e794f4b2dec1304",
+          "sha1": "d38e4567443f79a26080dc80ee584ac439c8f25c",
+          "md5": "1d4240b3ade5b0250819b4743f29e50e"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spring-session-data-redis-3.5.4-javadoc.jar",
+          "url": "spring-session-data-redis-3.5.4-javadoc.jar",
+          "size": 200888,
+          "sha512": "96d5d1911846aec8596dd479cb8b5fa30d692b5ac850d86a1edb209fd84acd9622a8c4f3cbcafc42f830dc509aaab3c125a1d41b030b9b804c243cb8bc4310a1",
+          "sha256": "3fa29cb65000ea76ca6a142b7c93179d6015f2434859d09267cb533ac7a1c506",
+          "sha1": "8967e81ce3ca58a63b8fecbecf591349aa27ddb8",
+          "md5": "6e430001dc2314f511c1ef2847ec618f"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spring-session-data-redis-3.5.4-sources.jar",
+          "url": "spring-session-data-redis-3.5.4-sources.jar",
+          "size": 63304,
+          "sha512": "4cfbfd42f74c2a3713b7a6e83572e1985e74a7dfce41d90e25f8742227e4f85cf5b74a5b5a78a99624bfa17259f4d0a1ba14a2971e7efcc6e660fb4088587ccd",
+          "sha256": "b3fd04f61fb0712b71dc691c4694c355ba0fceba32b7034643318919be5e0ea5",
+          "sha1": "4b565454da97f7f1b88ac63c087cdac09826b582",
+          "md5": "1b04144ab0b88d03f68c3c9dad936b8a"
+        }
+      ]
+    }
+  ]
+}
